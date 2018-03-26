@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A79BCB3D759FB407E466343AE9F0E69F"
+               BlueprintIdentifier = "BD2A589F1FAC5730AA8EF9EE436F9114"
                BuildableName = "MakemojiSDK_Data.framework"
                BlueprintName = "MakemojiSDK-Data"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A79BCB3D759FB407E466343AE9F0E69F"
+            BlueprintIdentifier = "BD2A589F1FAC5730AA8EF9EE436F9114"
             BuildableName = "MakemojiSDK_Data.framework"
             BlueprintName = "MakemojiSDK-Data"
             ReferencedContainer = "container:Pods.xcodeproj">

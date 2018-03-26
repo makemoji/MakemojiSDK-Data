@@ -7,5 +7,5 @@
 @property (nonatomic, retain) NSString *sdkKey;
     
 + (id)sharedManager;
-    
+- (void)sendEmojiEvent:(NSDictionary *)dictionary;
 @end

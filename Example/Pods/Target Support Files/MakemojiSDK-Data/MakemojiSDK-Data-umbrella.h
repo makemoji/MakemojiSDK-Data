@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MEData.h"
 
 FOUNDATION_EXPORT double MakemojiSDK_DataVersionNumber;
 FOUNDATION_EXPORT const unsigned char MakemojiSDK_DataVersionString[];

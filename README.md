@@ -9,7 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -18,4 +17,24 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'MakemojiSDK-Data'
+```
+
+## Usage
+
+First set yout Makemoji SDK Key once:
+
+```
+[[MEData sharedManager] setSdkKey:@"YOUR_KEY_HERE"];
+```
+
+Then start tracking emoji events throughout your app. These can be any ```NSDictionary``` you want. Here's an example.
+
+```   
+[[MEData sharedManager] sendEmojiEvent:@{@"emoji" : @"😀" }];
+```
+
+We will automatically track this to a individual user, but you can also add your own user data to this.
+
+```   
+[[MEData sharedManager] sendEmojiEvent:@{@"emoji" : @"😀", @"shared_user" : @"myfriend" }];
 ```

@@ -1,5 +1,5 @@
 PODS:
-  - MakemojiSDK-Data (0.1.0)
+  - MakemojiSDK-Data (1.0.0)
 
 DEPENDENCIES:
   - MakemojiSDK-Data (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MakemojiSDK-Data: 1d64f673ce4767026c1f51c6a39e9739a326916b
+  MakemojiSDK-Data: 8897c444933cf8d7842d2dabeefffda7a3ebd396
 
 PODFILE CHECKSUM: 8d2997e0280073689da55548eeefd3fa2213554a
 

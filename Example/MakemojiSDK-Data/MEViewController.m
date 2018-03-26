@@ -7,7 +7,7 @@
 //
 
 #import "MEViewController.h"
-#import <MakemojiSDK-Data/MakemojiSDK-Data.h>
+#import <MakemojiSDK_Data/MEData.h>
 
 @interface MEViewController ()
 
@@ -19,8 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    
+    [[MEData sharedManager] setSdkKey:@"YOUR_SDK_KEY"];
+    [[MEData sharedManager] sendEmojiEvent:@{ @"emoji" : @"😀" }];
     
 }
 
