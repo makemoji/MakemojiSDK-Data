@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MakemojiSDK-Data_Example' do
+  pod 'MakemojiSDK-Data', :path => '../'
+
+  target 'MakemojiSDK-Data_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

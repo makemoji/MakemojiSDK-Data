@@ -1,0 +1,6 @@
+framework module Pods_MakemojiSDK_Data_Tests {
+  umbrella header "Pods-MakemojiSDK-Data_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MakemojiSDK-Data.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MakemojiSDK-Data_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MakemojiSDK-Data_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>16E5C5FFFBE97D4258F64101932C48F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A79BCB3D759FB407E466343AE9F0E69F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B091B6A1DCF6DEB6C4ACDFCE0244D707</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

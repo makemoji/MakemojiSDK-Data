@@ -1,0 +1,6 @@
+framework module MakemojiSDK_Data {
+  umbrella header "MakemojiSDK-Data-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_MakemojiSDK_Data_Example {
+  umbrella header "Pods-MakemojiSDK-Data_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

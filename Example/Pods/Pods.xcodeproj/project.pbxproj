@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0080C066E06F0DBE40766351CF9C7B9C /* MakemojiSDK-Data-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD55EBC4E93E7043724DAD061172A62C /* MakemojiSDK-Data-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28185A680CD62B251ACD82C4DC8CF5E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		51A5F1E2B4165426747936D264C2C7C6 /* Pods-MakemojiSDK-Data_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B30DCC2F71A0236373485196867AFB90 /* Pods-MakemojiSDK-Data_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF08D63B9A9D504A53747678D581592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AFF76C9D70D276D0300E627939CD0377 /* Pods-MakemojiSDK-Data_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4F4C2E2EB0E5B662A89BC4CF6524FF /* Pods-MakemojiSDK-Data_Example-dummy.m */; };
+		B2346AA1741AE8047605581D5E129B7A /* Pods-MakemojiSDK-Data_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5798F4E6730A78B2DA2B6F7096F66DD /* Pods-MakemojiSDK-Data_Tests-dummy.m */; };
+		D65534903239FBF6D9445EA8685E1D43 /* MakemojiSDK-Data-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F2D209190FEF46969F440F52D2D08B /* MakemojiSDK-Data-dummy.m */; };
+		E08D4A6B589D43A6E7EDBB93611450FC /* Pods-MakemojiSDK-Data_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3681A6E6E80980DC5AE8525F1C5EE7F /* Pods-MakemojiSDK-Data_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E63316772EF271317AA2B08465BC6394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		653425162E2BCFB7C057963A582C0C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79BCB3D759FB407E466343AE9F0E69F;
+			remoteInfo = "MakemojiSDK-Data";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A8C4E7D2D75F69DF16D08B67D4ECC3 /* MakemojiSDK-Data.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MakemojiSDK-Data.xcconfig"; sourceTree = "<group>"; };
+		0C6F0AB630337839EDC26894BB7B7CFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0CD768FC3E206619EABBF791FB55A91E /* Pods-MakemojiSDK-Data_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakemojiSDK-Data_Example.release.xcconfig"; sourceTree = "<group>"; };
+		10EE513C59AAF9F166FEAA4BC28DA68B /* Pods-MakemojiSDK-Data_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MakemojiSDK-Data_Example.modulemap"; sourceTree = "<group>"; };
+		122FB7B960B9985E918A5BBB4D82D472 /* Pods-MakemojiSDK-Data_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakemojiSDK-Data_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		158B1060333886864881E91DEBE9B68B /* Pods_MakemojiSDK_Data_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakemojiSDK_Data_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F73A630EF52D7E191E92C5E166FA1C0 /* Pods-MakemojiSDK-Data_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakemojiSDK-Data_Example-resources.sh"; sourceTree = "<group>"; };
+		2E895B395C5AFFBC89392726E346EE2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F419D19E263A758DE83D393BEDA0809 /* Pods-MakemojiSDK-Data_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakemojiSDK-Data_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		439101A9054D004106D28F6585AD848D /* Pods-MakemojiSDK-Data_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakemojiSDK-Data_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		452434E27701B18226BDCB0E2FC7B94B /* Pods-MakemojiSDK-Data_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MakemojiSDK-Data_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		462C0850B1B13735170B915CE8F3D9D7 /* Pods-MakemojiSDK-Data_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MakemojiSDK-Data_Tests.modulemap"; sourceTree = "<group>"; };
+		5D78C8001FAE0B681F6CFFC784B11E4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E54339187676A7C168B91AB0B3B82F /* Pods-MakemojiSDK-Data_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakemojiSDK-Data_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		792DA8B5D232B40073EA87C4AA9A5616 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8439C7A2C374F832CC6BD2E32292601F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E1F0FFC618433B35379476ECED564D3 /* Pods-MakemojiSDK-Data_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakemojiSDK-Data_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		965A0BA37E119ECFDB10275E8F868634 /* MakemojiSDK-Data.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MakemojiSDK-Data.modulemap"; sourceTree = "<group>"; };
+		9E945BF60493F1FC952EFF69BBFD5388 /* Pods-MakemojiSDK-Data_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MakemojiSDK-Data_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A2F2D209190FEF46969F440F52D2D08B /* MakemojiSDK-Data-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MakemojiSDK-Data-dummy.m"; sourceTree = "<group>"; };
+		AAEBF3A854862BCEA3F077A30E41721F /* Pods-MakemojiSDK-Data_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakemojiSDK-Data_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B17675D23295B6C5DE1773237D150D0F /* MakemojiSDK_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MakemojiSDK_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30DCC2F71A0236373485196867AFB90 /* Pods-MakemojiSDK-Data_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakemojiSDK-Data_Example-umbrella.h"; sourceTree = "<group>"; };
+		BCE3DDC015619F711E3C60EE7154F938 /* Pods-MakemojiSDK-Data_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MakemojiSDK-Data_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C4B004555C034ECFB7AD8899E4188A5B /* Pods-MakemojiSDK-Data_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MakemojiSDK-Data_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6896A3E1DE57D2DA628626D5D4C73D8 /* MakemojiSDK-Data.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "MakemojiSDK-Data.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6CA2FD12068BA3900AA795A /* MEData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MEData.h; path = "MakemojiSDK-Data/Classes/MEData.h"; sourceTree = "<group>"; };
+		C6CA2FD22068BA3900AA795A /* MEData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MEData.m; path = "MakemojiSDK-Data/Classes/MEData.m"; sourceTree = "<group>"; };
+		DC3CBC2A7CD3A0741B46817FF9E10596 /* Pods_MakemojiSDK_Data_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakemojiSDK_Data_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD55EBC4E93E7043724DAD061172A62C /* MakemojiSDK-Data-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MakemojiSDK-Data-umbrella.h"; sourceTree = "<group>"; };
+		E3681A6E6E80980DC5AE8525F1C5EE7F /* Pods-MakemojiSDK-Data_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MakemojiSDK-Data_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E5798F4E6730A78B2DA2B6F7096F66DD /* Pods-MakemojiSDK-Data_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakemojiSDK-Data_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3E61315BE3C1A962611E5FD1A7780D0 /* MakemojiSDK-Data-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MakemojiSDK-Data-prefix.pch"; sourceTree = "<group>"; };
+		FA4F4C2E2EB0E5B662A89BC4CF6524FF /* Pods-MakemojiSDK-Data_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MakemojiSDK-Data_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465CBD1B514F04DBFB3A0A2CBFDE379E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63316772EF271317AA2B08465BC6394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1796240989F17A7155A8FEA441D092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF08D63B9A9D504A53747678D581592 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB115AF70AD040282BEEFBC04E6489D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28185A680CD62B251ACD82C4DC8CF5E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1723D44E52094C56FCCE77FF64E54DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17675D23295B6C5DE1773237D150D0F /* MakemojiSDK_Data.framework */,
+				158B1060333886864881E91DEBE9B68B /* Pods_MakemojiSDK_Data_Example.framework */,
+				DC3CBC2A7CD3A0741B46817FF9E10596 /* Pods_MakemojiSDK_Data_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7371172DAF973C4797BCEA5521853650 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80C3F2F93A9F6B4D271B8B853A8BA382 /* Pods-MakemojiSDK-Data_Example */,
+				C29BD13CDF5312DB4ED8692A933910A3 /* Pods-MakemojiSDK-Data_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				93D5735CD929F1DECDC105AE39DCE6A2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1723D44E52094C56FCCE77FF64E54DAD /* Products */,
+				7371172DAF973C4797BCEA5521853650 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C3F2F93A9F6B4D271B8B853A8BA382 /* Pods-MakemojiSDK-Data_Example */ = {
+			isa = PBXGroup;
+			children = (
+				792DA8B5D232B40073EA87C4AA9A5616 /* Info.plist */,
+				10EE513C59AAF9F166FEAA4BC28DA68B /* Pods-MakemojiSDK-Data_Example.modulemap */,
+				122FB7B960B9985E918A5BBB4D82D472 /* Pods-MakemojiSDK-Data_Example-acknowledgements.markdown */,
+				452434E27701B18226BDCB0E2FC7B94B /* Pods-MakemojiSDK-Data_Example-acknowledgements.plist */,
+				FA4F4C2E2EB0E5B662A89BC4CF6524FF /* Pods-MakemojiSDK-Data_Example-dummy.m */,
+				9E945BF60493F1FC952EFF69BBFD5388 /* Pods-MakemojiSDK-Data_Example-frameworks.sh */,
+				1F73A630EF52D7E191E92C5E166FA1C0 /* Pods-MakemojiSDK-Data_Example-resources.sh */,
+				B30DCC2F71A0236373485196867AFB90 /* Pods-MakemojiSDK-Data_Example-umbrella.h */,
+				BCE3DDC015619F711E3C60EE7154F938 /* Pods-MakemojiSDK-Data_Example.debug.xcconfig */,
+				0CD768FC3E206619EABBF791FB55A91E /* Pods-MakemojiSDK-Data_Example.release.xcconfig */,
+			);
+			name = "Pods-MakemojiSDK-Data_Example";
+			path = "Target Support Files/Pods-MakemojiSDK-Data_Example";
+			sourceTree = "<group>";
+		};
+		93D5735CD929F1DECDC105AE39DCE6A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C510A102879B9096EB10A1CF6EFA3892 /* MakemojiSDK-Data */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29BD13CDF5312DB4ED8692A933910A3 /* Pods-MakemojiSDK-Data_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D78C8001FAE0B681F6CFFC784B11E4A /* Info.plist */,
+				462C0850B1B13735170B915CE8F3D9D7 /* Pods-MakemojiSDK-Data_Tests.modulemap */,
+				C4B004555C034ECFB7AD8899E4188A5B /* Pods-MakemojiSDK-Data_Tests-acknowledgements.markdown */,
+				439101A9054D004106D28F6585AD848D /* Pods-MakemojiSDK-Data_Tests-acknowledgements.plist */,
+				E5798F4E6730A78B2DA2B6F7096F66DD /* Pods-MakemojiSDK-Data_Tests-dummy.m */,
+				3F419D19E263A758DE83D393BEDA0809 /* Pods-MakemojiSDK-Data_Tests-frameworks.sh */,
+				65E54339187676A7C168B91AB0B3B82F /* Pods-MakemojiSDK-Data_Tests-resources.sh */,
+				E3681A6E6E80980DC5AE8525F1C5EE7F /* Pods-MakemojiSDK-Data_Tests-umbrella.h */,
+				8E1F0FFC618433B35379476ECED564D3 /* Pods-MakemojiSDK-Data_Tests.debug.xcconfig */,
+				AAEBF3A854862BCEA3F077A30E41721F /* Pods-MakemojiSDK-Data_Tests.release.xcconfig */,
+			);
+			name = "Pods-MakemojiSDK-Data_Tests";
+			path = "Target Support Files/Pods-MakemojiSDK-Data_Tests";
+			sourceTree = "<group>";
+		};
+		C510A102879B9096EB10A1CF6EFA3892 /* MakemojiSDK-Data */ = {
+			isa = PBXGroup;
+			children = (
+				C6CA2FD12068BA3900AA795A /* MEData.h */,
+				C6CA2FD22068BA3900AA795A /* MEData.m */,
+				D173C83E7E388368D104C5883DF31E1A /* Pod */,
+				E762C5928FB57AEB0D6B504E7DE01E7D /* Support Files */,
+			);
+			name = "MakemojiSDK-Data";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D173C83E7E388368D104C5883DF31E1A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F0AB630337839EDC26894BB7B7CFA /* LICENSE */,
+				C6896A3E1DE57D2DA628626D5D4C73D8 /* MakemojiSDK-Data.podspec */,
+				8439C7A2C374F832CC6BD2E32292601F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E762C5928FB57AEB0D6B504E7DE01E7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E895B395C5AFFBC89392726E346EE2E /* Info.plist */,
+				965A0BA37E119ECFDB10275E8F868634 /* MakemojiSDK-Data.modulemap */,
+				04A8C4E7D2D75F69DF16D08B67D4ECC3 /* MakemojiSDK-Data.xcconfig */,
+				A2F2D209190FEF46969F440F52D2D08B /* MakemojiSDK-Data-dummy.m */,
+				F3E61315BE3C1A962611E5FD1A7780D0 /* MakemojiSDK-Data-prefix.pch */,
+				DD55EBC4E93E7043724DAD061172A62C /* MakemojiSDK-Data-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MakemojiSDK-Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BD13C326295375D40A06D3EDC80E349 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080C066E06F0DBE40766351CF9C7B9C /* MakemojiSDK-Data-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B107E4DE07AC4B3FB83F509FA85112E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5F1E2B4165426747936D264C2C7C6 /* Pods-MakemojiSDK-Data_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C767DD351CF987E6EDF42AF71014C82C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08D4A6B589D43A6E7EDBB93611450FC /* Pods-MakemojiSDK-Data_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16E5C5FFFBE97D4258F64101932C48F6 /* Pods-MakemojiSDK-Data_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1025C0A6D07251A0D9A633B1E9F4DD9 /* Build configuration list for PBXNativeTarget "Pods-MakemojiSDK-Data_Example" */;
+			buildPhases = (
+				A6A1A3B3F90B976EE72D9EEC3C3D1041 /* Sources */,
+				465CBD1B514F04DBFB3A0A2CBFDE379E /* Frameworks */,
+				4B107E4DE07AC4B3FB83F509FA85112E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBB20A52F3EF9C0D5D342EBD895AD2B /* PBXTargetDependency */,
+			);
+			name = "Pods-MakemojiSDK-Data_Example";
+			productName = "Pods-MakemojiSDK-Data_Example";
+			productReference = 158B1060333886864881E91DEBE9B68B /* Pods_MakemojiSDK_Data_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A79BCB3D759FB407E466343AE9F0E69F /* MakemojiSDK-Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6941C89454FB00DB5139355A5FC17284 /* Build configuration list for PBXNativeTarget "MakemojiSDK-Data" */;
+			buildPhases = (
+				EDB844A91901CAB45728CD0899071174 /* Sources */,
+				5E1796240989F17A7155A8FEA441D092 /* Frameworks */,
+				2BD13C326295375D40A06D3EDC80E349 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MakemojiSDK-Data";
+			productName = "MakemojiSDK-Data";
+			productReference = B17675D23295B6C5DE1773237D150D0F /* MakemojiSDK_Data.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B091B6A1DCF6DEB6C4ACDFCE0244D707 /* Pods-MakemojiSDK-Data_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EC0224734148F38C3973B00F4D06E9 /* Build configuration list for PBXNativeTarget "Pods-MakemojiSDK-Data_Tests" */;
+			buildPhases = (
+				002E2DC79E3B7FE4E7D8C057741E6926 /* Sources */,
+				BBB115AF70AD040282BEEFBC04E6489D /* Frameworks */,
+				C767DD351CF987E6EDF42AF71014C82C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MakemojiSDK-Data_Tests";
+			productName = "Pods-MakemojiSDK-Data_Tests";
+			productReference = DC3CBC2A7CD3A0741B46817FF9E10596 /* Pods_MakemojiSDK_Data_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1723D44E52094C56FCCE77FF64E54DAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79BCB3D759FB407E466343AE9F0E69F /* MakemojiSDK-Data */,
+				16E5C5FFFBE97D4258F64101932C48F6 /* Pods-MakemojiSDK-Data_Example */,
+				B091B6A1DCF6DEB6C4ACDFCE0244D707 /* Pods-MakemojiSDK-Data_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002E2DC79E3B7FE4E7D8C057741E6926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2346AA1741AE8047605581D5E129B7A /* Pods-MakemojiSDK-Data_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A1A3B3F90B976EE72D9EEC3C3D1041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF76C9D70D276D0300E627939CD0377 /* Pods-MakemojiSDK-Data_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB844A91901CAB45728CD0899071174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65534903239FBF6D9445EA8685E1D43 /* MakemojiSDK-Data-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BBB20A52F3EF9C0D5D342EBD895AD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MakemojiSDK-Data";
+			target = A79BCB3D759FB407E466343AE9F0E69F /* MakemojiSDK-Data */;
+			targetProxy = 653425162E2BCFB7C057963A582C0C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FD442A2CC30E58584AF4FE356A7BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE3DDC015619F711E3C60EE7154F938 /* Pods-MakemojiSDK-Data_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Example/Pods-MakemojiSDK-Data_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MakemojiSDK_Data_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		154EFD54CB5D28AD7BA871613397DBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A8C4E7D2D75F69DF16D08B67D4ECC3 /* MakemojiSDK-Data.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MakemojiSDK-Data/MakemojiSDK-Data-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MakemojiSDK-Data/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MakemojiSDK-Data/MakemojiSDK-Data.modulemap";
+				PRODUCT_NAME = MakemojiSDK_Data;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30D6E062D18B25DF8073A56B8A596DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1F0FFC618433B35379476ECED564D3 /* Pods-MakemojiSDK-Data_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Tests/Pods-MakemojiSDK-Data_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MakemojiSDK_Data_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88CF9A1199F3AB10A51ACDE132AF024F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A8C4E7D2D75F69DF16D08B67D4ECC3 /* MakemojiSDK-Data.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MakemojiSDK-Data/MakemojiSDK-Data-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MakemojiSDK-Data/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MakemojiSDK-Data/MakemojiSDK-Data.modulemap";
+				PRODUCT_NAME = MakemojiSDK_Data;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F51C0716E9C8E947AF3C7861DC090D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD768FC3E206619EABBF791FB55A91E /* Pods-MakemojiSDK-Data_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Example/Pods-MakemojiSDK-Data_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MakemojiSDK_Data_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F57C8B6008FE160BA66DD55D980E09B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEBF3A854862BCEA3F077A30E41721F /* Pods-MakemojiSDK-Data_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MakemojiSDK-Data_Tests/Pods-MakemojiSDK-Data_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MakemojiSDK_Data_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6941C89454FB00DB5139355A5FC17284 /* Build configuration list for PBXNativeTarget "MakemojiSDK-Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CF9A1199F3AB10A51ACDE132AF024F /* Debug */,
+				154EFD54CB5D28AD7BA871613397DBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1025C0A6D07251A0D9A633B1E9F4DD9 /* Build configuration list for PBXNativeTarget "Pods-MakemojiSDK-Data_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FD442A2CC30E58584AF4FE356A7BCB /* Debug */,
+				F51C0716E9C8E947AF3C7861DC090D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EC0224734148F38C3973B00F4D06E9 /* Build configuration list for PBXNativeTarget "Pods-MakemojiSDK-Data_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6E062D18B25DF8073A56B8A596DD8 /* Debug */,
+				F57C8B6008FE160BA66DD55D980E09B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

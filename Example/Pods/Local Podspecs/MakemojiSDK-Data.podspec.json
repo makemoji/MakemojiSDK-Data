@@ -1,0 +1,22 @@
+{
+  "name": "MakemojiSDK-Data",
+  "version": "0.1.0",
+  "summary": "A short description of MakemojiSDK-Data.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Makemoji/MakemojiSDK-Data",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Makemoji": "steve.frederick.lp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Makemoji/MakemojiSDK-Data.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MakemojiSDK-Data/Classes/**/*"
+}
