@@ -26,7 +26,7 @@ Include the framework header:
 #import <MakemojiSDK_Data/MEData.h>
 ```
 
-First set yout Makemoji SDK Key once:
+Then set yout Makemoji SDK Key once:
 
 ```
 [[MEData sharedManager] setSdkKey:@"YOUR_KEY_HERE"];
