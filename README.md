@@ -21,6 +21,11 @@ pod 'MakemojiSDK-Data'
 
 ## Usage
 
+Include the framework header:
+```
+#import <MakemojiSDK_Data/MEData.h>
+```
+
 First set yout Makemoji SDK Key once:
 
 ```
